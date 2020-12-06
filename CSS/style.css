@@ -1,0 +1,120 @@
+/*Selector{
+	Property: value;
+	* -----all
+
+}*/
+body{
+	background-image: url(image1.jpg)
+	background-size:cover;
+}
+
+li{
+	list-style: none;
+	display: initial;
+}
+
+h2{
+	color:red;
+	text-align: center;
+	border: 5px  solid purple;
+	/*border: 5px  solid rgb(D46A6A);*/
+	cursor:pointer;
+}
+
+h2, p{
+	color:red;
+	text-align: center;
+	border: 5px  solid purple;
+	/*border: 5px  solid rgb(D46A6A);*/
+	cursor:pointer;
+}
+
+/*
+changes paragraph immediately h2
+h2> p{
+	color:red;
+	text-align: center;
+	border: 5px  solid purple;
+	/*border: 5px  solid rgb(D46A6A);
+	cursor:pointer;
+}*/
+
+/*
+h2 + p{
+	color:red;
+	text-align: center;
+	border: 5px  solid purple;
+	/*border: 5px  solid rgb(D46A6A);
+	cursor:pointer;
+}*/
+
+/*
+changes the stype with cursor
+h2 + p:hover{ 
+	color:red;
+	text-align: center;
+	border: 5px  solid purple;
+	/*border: 5px  solid rgb(D46A6A);
+	cursor:pointer;
+
+  ----This will over write all cascetting rules
+	p{
+	color:blue !important;
+}
+
+}*/
+
+image{
+	float: left;
+}
+
+footer{
+	clear: both;
+	text-align: center;
+}
+
+p{
+	color:blue;
+	/*text-decoration: underline;*/
+	text-transform: uppercase;
+	line-height: 50px;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 100%;
+	/*Got from Google, related to stype.css google link*/
+	font-family: 'Lora', serif;
+}
+
+.webtext{
+	border: 5px border green;
+}
+
+.webtext{
+	border: 5px border green;
+}
+
+/*
+apply only last child
+.webtext: last-child{
+	border: 5px border green;
+
+	apply only first child
+.webtext: first-child{
+	border: 5px border green;
+}
+*/
+.active{
+	color: red;
+}
+#div1{
+	background:  blue;
+}
+
+#div2{
+	background:  rgba(255,0,0,0.3);
+}
+
+/*all*/
+/**{
+text-align: right;
+}*/
